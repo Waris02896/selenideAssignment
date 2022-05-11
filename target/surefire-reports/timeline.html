@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = new vis.DataSet([{"id":1,"content":"ForkJoinPool-1-worker-3"}]);
+var items = new vis.DataSet([{"id":1,"group":1,"content":"RestFulBooker[3.1:34]","start":1380,"end":3239,"title":"RestFulBooker[3.1:34] 05:00:01.380-05:00:03.239 Use booking ids from point2 to fetch booking details of each id"},{"id":2,"group":1,"content":"RestFulBooker[3.2:35]","start":3256,"end":4547,"title":"RestFulBooker[3.2:35] 05:00:03.256-05:00:04.547 Use booking ids from point2 to fetch booking details of each id"},{"id":3,"group":1,"content":"RestFulBooker[3.3:36]","start":4557,"end":5671,"title":"RestFulBooker[3.3:36] 05:00:04.557-05:00:05.671 Use booking ids from point2 to fetch booking details of each id"},{"id":4,"group":1,"content":"RestFulBooker[3.4:37]","start":5685,"end":6908,"title":"RestFulBooker[3.4:37] 05:00:05.685-05:00:06.908 Use booking ids from point2 to fetch booking details of each id"}]);
+var container = document.getElementById('visualization');
+var timeline = new vis.Timeline(container);
+timeline.setOptions({ groupOrder: 'content' });
+timeline.setGroups(groups);
+timeline.setItems(items);
+</script>
+  </body>
+</html>

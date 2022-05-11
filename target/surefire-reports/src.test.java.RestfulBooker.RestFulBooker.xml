@@ -1,0 +1,80 @@
+<testsuite failures="0" name="src/test/java/RestfulBooker/RestFulBooker.feature" skipped="0" tests="4" time="5.458682">
+  <testcase classname="src.test.java.RestfulBooker.RestFulBooker" name="Use booking ids from point2 to fetch booking details of each id" time="1.835223">
+    <system-out>* url 'https://restful-booker.herokuapp.com/' ............................. passed
+* header Accept = 'application/json' ...................................... passed
+Given path 'booking' ...................................................... passed
+And path id ............................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.RestfulBooker.RestFulBooker" name="Use booking ids from point2 to fetch booking details of each id" time="1.289905">
+    <system-out>* url 'https://restful-booker.herokuapp.com/' ............................. passed
+* header Accept = 'application/json' ...................................... passed
+Given path 'booking' ...................................................... passed
+And path id ............................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+* url 'https://restful-booker.herokuapp.com/' ............................. passed
+* header Accept = 'application/json' ...................................... passed
+Given path 'booking' ...................................................... passed
+And path id ............................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.RestfulBooker.RestFulBooker" name="Use booking ids from point2 to fetch booking details of each id" time="1.113112">
+    <system-out>* url 'https://restful-booker.herokuapp.com/' ............................. passed
+* header Accept = 'application/json' ...................................... passed
+Given path 'booking' ...................................................... passed
+And path id ............................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+* url 'https://restful-booker.herokuapp.com/' ............................. passed
+* header Accept = 'application/json' ...................................... passed
+Given path 'booking' ...................................................... passed
+And path id ............................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+* url 'https://restful-booker.herokuapp.com/' ............................. passed
+* header Accept = 'application/json' ...................................... passed
+Given path 'booking' ...................................................... passed
+And path id ............................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.RestfulBooker.RestFulBooker" name="Use booking ids from point2 to fetch booking details of each id" time="1.220442">
+    <system-out>* url 'https://restful-booker.herokuapp.com/' ............................. passed
+* header Accept = 'application/json' ...................................... passed
+Given path 'booking' ...................................................... passed
+And path id ............................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+* url 'https://restful-booker.herokuapp.com/' ............................. passed
+* header Accept = 'application/json' ...................................... passed
+Given path 'booking' ...................................................... passed
+And path id ............................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+* url 'https://restful-booker.herokuapp.com/' ............................. passed
+* header Accept = 'application/json' ...................................... passed
+Given path 'booking' ...................................................... passed
+And path id ............................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+* url 'https://restful-booker.herokuapp.com/' ............................. passed
+* header Accept = 'application/json' ...................................... passed
+Given path 'booking' ...................................................... passed
+And path id ............................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed</system-out>
+  </testcase>
+</testsuite>
